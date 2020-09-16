@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1896f74-8d5f-4d3e-8acb-032e053a8a07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/db/migrate/20200916075649_add_index_to_users_email.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
     </list>
@@ -163,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600240543867</updated>
-      <workItem from="1600240545672" duration="1742000" />
+      <workItem from="1600240545672" duration="2152000" />
     </task>
     <servers />
   </component>
@@ -189,9 +190,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1600240645032" />
-    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1600242469728">
+    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1600242668541">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600242469728" />
+    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600242668541" />
   </component>
 </project>
