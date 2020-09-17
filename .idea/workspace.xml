@@ -23,8 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1896f74-8d5f-4d3e-8acb-032e053a8a07" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ror-tutorial-sample-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ror-tutorial-sample-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +168,7 @@
       <workItem from="1600240545672" duration="3437000" />
       <workItem from="1600245317743" duration="116000" />
       <workItem from="1600263888035" duration="799000" />
+      <workItem from="1600347559309" duration="851000" />
     </task>
     <servers />
   </component>
@@ -196,9 +199,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1600240645032" />
-    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1600264917565">
+    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1600345481975">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600264917565" />
+    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600345481975" />
   </component>
 </project>
