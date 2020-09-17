@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Rails ror-tutorial-sample-app: development" uuid="59e614dd-03f0-402c-a718-8a48b785bbdf">
+    <data-source source="LOCAL" name="Rails ror-tutorial-sample-app: development" uuid="9881a631-9edb-4bc7-991e-9645b39b047f">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
@@ -9,7 +9,7 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="Rails ror-tutorial-sample-app: test" uuid="69162b44-864f-46ee-9a43-d49a7a550e23">
+    <data-source source="LOCAL" name="Rails ror-tutorial-sample-app: test" uuid="813440a9-9708-44f3-883f-93778aee1579">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
