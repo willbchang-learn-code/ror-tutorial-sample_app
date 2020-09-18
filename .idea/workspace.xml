@@ -23,10 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1896f74-8d5f-4d3e-8acb-032e053a8a07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_error_message.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/integration/users_signup_test.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/users_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +58,28 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Rails.Development: ror-tutorial-sample-app">
+  <component name="RunManager" selected="IRB.rails console">
+    <configuration name="rails console" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
+      <module name="ror-tutorial-sample-app" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console -- --simple-prompt" />
+      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="Development: ror-tutorial-sample-app" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="ror-tutorial-sample-app" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -155,6 +177,11 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="IRB.rails console" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
@@ -168,7 +195,8 @@
       <workItem from="1600240545672" duration="3437000" />
       <workItem from="1600245317743" duration="116000" />
       <workItem from="1600263888035" duration="799000" />
-      <workItem from="1600347559309" duration="4315000" />
+      <workItem from="1600347559309" duration="8490000" />
+      <workItem from="1600404221880" duration="2144000" />
     </task>
     <servers />
   </component>
@@ -195,17 +223,36 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="496" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1600245502809" />
-    <state x="397" y="199" key="SettingsEditor" timestamp="1600348925940">
+    <state width="857" height="341" key="GridCell.Tab.0.bottom" timestamp="1600392597116">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1600348925940" />
+    <state width="857" height="341" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1600392597116" />
+    <state width="857" height="341" key="GridCell.Tab.0.center" timestamp="1600392597115">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="857" height="341" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1600392597115" />
+    <state width="857" height="341" key="GridCell.Tab.0.left" timestamp="1600392597114">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="857" height="341" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1600392597114" />
+    <state width="857" height="341" key="GridCell.Tab.0.right" timestamp="1600392597115">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="857" height="341" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1600392597115" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1600404125160">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1600404125160" />
     <state x="1161" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600351086734">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="1161" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1792.1120@0.0.1792.1120" timestamp="1600351086734" />
-    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1600390243370">
+    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1600410133894">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600390243370" />
+    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600410133894" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ror_tutorial_sample_app@rails_console.rcov" NAME="rails console Coverage Results" MODIFIED="1600392486440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ror-tutorial-sample-app" />
   </component>
 </project>
