@@ -23,7 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1896f74-8d5f-4d3e-8acb-032e053a8a07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/db/migrate/20200922081805_add_remember_digest_to_users.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,10 +256,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="1025" y="265" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600563921659" />
-    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1600761872355">
+    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1600763298731">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600761872355" />
+    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600763298731" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ror_tutorial_sample_app@rails_console.rcov" NAME="rails console Coverage Results" MODIFIED="1600587420001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ror-tutorial-sample-app" />
