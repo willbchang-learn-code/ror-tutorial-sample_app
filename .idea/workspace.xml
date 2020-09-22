@@ -23,11 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1896f74-8d5f-4d3e-8acb-032e053a8a07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ror-tutorial-sample-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ror-tutorial-sample-app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ruby-version" beforeDir="false" afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RunManager" selected="IRB.rails console">
     <configuration name="rails console" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
@@ -225,26 +224,26 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="496" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1600245502809" />
-    <state width="1792" height="341" key="GridCell.Tab.0.bottom" timestamp="1600587643356">
+    <state width="909" height="341" key="GridCell.Tab.0.bottom" timestamp="1600749439107">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1792" height="341" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1600587643356" />
-    <state width="1792" height="341" key="GridCell.Tab.0.center" timestamp="1600587643355">
+    <state width="909" height="341" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1600749439107" />
+    <state width="909" height="341" key="GridCell.Tab.0.center" timestamp="1600749439106">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1792" height="341" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1600587643355" />
-    <state width="1792" height="341" key="GridCell.Tab.0.left" timestamp="1600587643355">
+    <state width="909" height="341" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1600749439106" />
+    <state width="909" height="341" key="GridCell.Tab.0.left" timestamp="1600749439105">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1792" height="341" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1600587643355" />
-    <state width="1792" height="341" key="GridCell.Tab.0.right" timestamp="1600587643356">
+    <state width="909" height="341" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1600749439105" />
+    <state width="909" height="341" key="GridCell.Tab.0.right" timestamp="1600749439107">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1792" height="341" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1600587643356" />
-    <state x="397" y="199" key="SettingsEditor" timestamp="1600404125160">
+    <state width="909" height="341" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1600749439107" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1600681145141">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1600404125160" />
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1600681145141" />
     <state x="1161" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600564041883">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -257,10 +256,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="1025" y="265" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600563921659" />
-    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1600607935652">
+    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1600681179196">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600607935652" />
+    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600681179196" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ror_tutorial_sample_app@rails_console.rcov" NAME="rails console Coverage Results" MODIFIED="1600587420001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ror-tutorial-sample-app" />
