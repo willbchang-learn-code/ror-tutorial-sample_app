@@ -22,10 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1896f74-8d5f-4d3e-8acb-032e053a8a07" name="Default Changelist" comment="refactor: replace defining method with self. to class &lt;&lt; self">
+    <list default="true" id="c1896f74-8d5f-4d3e-8acb-032e053a8a07" name="Default Changelist" comment="refactor: assign variable in if statement for potential use">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +33,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="6xr48w57" />
   </component>
   <component name="ProjectId" id="1haDvpw5nTOQhDmYlEQghpFnZJc" />
   <component name="ProjectLevelVcsManager">
@@ -55,7 +56,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="IRB.rails console">
     <configuration name="rails console" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
@@ -198,6 +199,7 @@
       <workItem from="1600404221880" duration="2144000" />
       <workItem from="1600474137821" duration="2091000" />
       <workItem from="1600572703874" duration="7164000" />
+      <workItem from="1600837951266" duration="238000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: replace defining method with self. to class &lt;&lt; self">
       <created>1600773782806</created>
@@ -206,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600773782806</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feature: remember and check user remember_token">
+      <created>1600775077097</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600775077097</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactor: assign variable in if statement for potential use">
+      <created>1600775354165</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600775354165</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +243,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="refactor: replace defining method with self. to class &lt;&lt; self" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: replace defining method with self. to class &lt;&lt; self" />
+    <MESSAGE value="feature: remember and check user remember_token" />
+    <MESSAGE value="refactor: assign variable in if statement for potential use" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: assign variable in if statement for potential use" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600245502809">
@@ -250,10 +268,14 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="909" height="341" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1600749439107" />
-    <state x="397" y="199" key="SettingsEditor" timestamp="1600681145141">
+    <state x="397" y="199" key="SettingsEditor" timestamp="1600823480639">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1600681145141" />
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1600823480639" />
+    <state x="937" y="300" key="Vcs.Push.Dialog.v2" timestamp="1600775377229">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="937" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1600775377229" />
     <state x="1161" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600564041883">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -266,10 +288,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="1025" y="265" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600563921659" />
-    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1600774410870">
+    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1600775390771">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600774410870" />
+    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600775390771" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ror_tutorial_sample_app@rails_console.rcov" NAME="rails console Coverage Results" MODIFIED="1600587420001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ror-tutorial-sample-app" />
