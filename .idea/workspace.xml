@@ -23,15 +23,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1896f74-8d5f-4d3e-8acb-032e053a8a07" name="Default Changelist" comment="refactor: assign variable in if statement for potential use">
+      <change afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Liquid File" />
+        <option value="ERB File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -201,7 +211,7 @@
       <workItem from="1600404221880" duration="2144000" />
       <workItem from="1600474137821" duration="2091000" />
       <workItem from="1600572703874" duration="7164000" />
-      <workItem from="1600837951266" duration="1154000" />
+      <workItem from="1600837951266" duration="4258000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: replace defining method with self. to class &lt;&lt; self">
       <created>1600773782806</created>
@@ -290,10 +300,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="1025" y="265" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600563921659" />
-    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1600844653636">
+    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1600849602030">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600844653636" />
+    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600849602030" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ror_tutorial_sample_app@rails_console.rcov" NAME="rails console Coverage Results" MODIFIED="1600587420001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ror-tutorial-sample-app" />
