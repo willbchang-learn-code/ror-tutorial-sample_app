@@ -206,7 +206,7 @@
       <workItem from="1600404221880" duration="2144000" />
       <workItem from="1600474137821" duration="2091000" />
       <workItem from="1600572703874" duration="7164000" />
-      <workItem from="1600837951266" duration="6878000" />
+      <workItem from="1600837951266" duration="8123000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: replace defining method with self. to class &lt;&lt; self">
       <created>1600773782806</created>
@@ -259,22 +259,22 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="496" y="225" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1600245502809" />
-    <state width="967" height="341" key="GridCell.Tab.0.bottom" timestamp="1600914974028">
+    <state width="967" height="341" key="GridCell.Tab.0.bottom" timestamp="1600926320390">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="967" height="341" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1600914974028" />
-    <state width="967" height="341" key="GridCell.Tab.0.center" timestamp="1600914974027">
+    <state width="967" height="341" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1600926320390" />
+    <state width="967" height="341" key="GridCell.Tab.0.center" timestamp="1600926320389">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="967" height="341" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1600914974027" />
-    <state width="967" height="341" key="GridCell.Tab.0.left" timestamp="1600914974026">
+    <state width="967" height="341" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1600926320389" />
+    <state width="967" height="341" key="GridCell.Tab.0.left" timestamp="1600926320388">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="967" height="341" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1600914974026" />
-    <state width="967" height="341" key="GridCell.Tab.0.right" timestamp="1600914974027">
+    <state width="967" height="341" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1600926320388" />
+    <state width="967" height="341" key="GridCell.Tab.0.right" timestamp="1600926320389">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="967" height="341" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1600914974027" />
+    <state width="967" height="341" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1600926320389" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1600823480639">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -295,10 +295,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="1025" y="265" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600563921659" />
-    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1600914984548">
+    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup" timestamp="1600926458903">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600914984548" />
+    <state x="561" y="281" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1600926458903" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ror_tutorial_sample_app@rails_console.rcov" NAME="rails console Coverage Results" MODIFIED="1600587420001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ror-tutorial-sample-app" />
